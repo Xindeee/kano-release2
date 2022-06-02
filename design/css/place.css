@@ -1,0 +1,11 @@
+.cn {
+    display: table-cell;
+    margin: 25px 25px;
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .inner {
+    display: inline-block;
+    width: 200px; height: 200px;
+  }

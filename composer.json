@@ -1,0 +1,25 @@
+{
+	"config": {
+		"optimize-autoloader": true,
+	        "preferred-install": {
+	            "*" : "dist"
+	        },
+		"platform": {
+		  "php": "7.4"
+		}
+	},	
+	"require": {
+		"phpoffice/phpexcel": "^1.8",
+		"phpoffice/phpspreadsheet": "1.2",
+		"workerman/workerman": "^4.0",
+		"php-webdriver/webdriver": "^1.11"
+	},
+	"autoload": {
+		"classmap": [
+			"./"
+		],
+		"exclude-from-classmap": [
+			"/design/*"
+		]
+	}
+}
